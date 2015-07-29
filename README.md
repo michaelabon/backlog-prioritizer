@@ -1,3 +1,3 @@
 # Auto Prefixer
 
-With thanks from Tim Butterworth, Alex Kramer, Mark McDonald
+With thanks to Tim Butterworth, [Alex Kramer](https://github.com/mitochondrion), [Mark McDonald](https://github.com/MarkyMarkMcDonald)
