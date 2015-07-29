@@ -21,7 +21,7 @@ chrome.extension.sendMessage({}, function (response) {
                 return this;
             };
 
-            var thing = '<li class="item dice_roller">' +
+            var thing = '<li class="item dice_roller" title="I’m feeling lucky">' +
                 '<label for="sidebar_panel_project_history_1166228" class="project_history" id="sidebar_panel_label_project_history_1166228_">' +
                             '<span class="panel_name">Auto Prioritizer</span>' +
                                 '</label>' +
