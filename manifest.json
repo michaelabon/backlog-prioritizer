@@ -1,6 +1,6 @@
 {
   "name": "Auto Prioritizer",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "manifest_version": 2,
   "description": "Pivotal Tracker backlog prioritization optimizer using Fisher-Yates machine-learning algorithm",
   "homepage_url": "https://github.com/mkenyon/backlog-prioritizer",

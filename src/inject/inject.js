@@ -28,7 +28,10 @@ chrome.extension.sendMessage({}, function (response) {
     var rollTheDice = function(event) {
       event.preventDefault();
       console.log("error: success!!");
-      var stories = $('.backlog .story');
+
+      var backlog = $('.backlog .story');
+      var current = $('.current .story');
+      var stories = backlog.add(current);
 
       $('<audio autoplay="true" src="http://mikekenyon.ca/thing_noise.mp3"></audio>').prependTo($('body'));
 
