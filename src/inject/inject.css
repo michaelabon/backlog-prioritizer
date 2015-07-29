@@ -1,0 +1,19 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+
+.item.dice_roller:before {
+    opacity: 0.8;
+    background-image: url('http://png-3.findicons.com/files/icons/2118/nuvola/128/package_games_board.png');
+    background-position: center center;
+    background-size: cover;
+    height: 16px;
+    width: 16px;
+    content: '';
+    line-height: 29px;
+    position: absolute;
+    pointer-events: none;
+    margin: 7px 9px 0 13px;
+}
+
+
