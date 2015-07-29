@@ -31,10 +31,14 @@ chrome.extension.sendMessage({}, function (response) {
                 event.preventDefault();
                 console.log("error: success!!");
                 var stories = $('.backlog .story');
-                for (var i = 0; i < 30; ++i) {
-                    setTimeout(stories.scramble.bind(stories), i * 100)
+
+                $('<audio autoplay="true" src="http://mikekenyon.ca/thing_noise.mp3"></audio>').prependTo($('body'));
+
+                for (var i = 0; i < 50; ++i) {
+                    setTimeout(stories.scramble.bind(stories), i * 100);
                 }
             };
+
             $(thing).insertAfter($('.item.project_history'));
             $('body').on('click', '.item.dice_roller', rollTheDice);
         }
